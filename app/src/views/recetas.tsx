@@ -21,7 +21,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -34,7 +34,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -47,7 +47,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -60,61 +60,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
-                            <Card.Text>
-                                Descripción.
-                            </Card.Text>
-                            <Button variant="primary">Select</Button>
-                            <Button variant="danger">Deselect</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
-                            <Card.Text>
-                                Descripción.
-                            </Card.Text>
-                            <Button variant="primary">Select</Button>
-                            <Button variant="danger">Deselect</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
-                            <Card.Text>
-                                Descripción.
-                            </Card.Text>
-                            <Button variant="primary">Select</Button>
-                            <Button variant="danger">Deselect</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
-                            <Card.Text>
-                                Descripción.
-                            </Card.Text>
-                            <Button variant="primary">Select</Button>
-                            <Button variant="danger">Deselect</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -129,7 +75,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -142,7 +88,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -155,7 +101,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -168,7 +114,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -183,7 +129,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -196,7 +142,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -209,7 +155,7 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
@@ -222,7 +168,61 @@ export const ListaRecetas = () => {
                     <Card style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>Receta</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">#tags</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
+                            <Card.Text>
+                                Descripción.
+                            </Card.Text>
+                            <Button variant="primary">Select</Button>
+                            <Button variant="danger">Deselect</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>Receta</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
+                            <Card.Text>
+                                Descripción.
+                            </Card.Text>
+                            <Button variant="primary">Select</Button>
+                            <Button variant="danger">Deselect</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>Receta</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
+                            <Card.Text>
+                                Descripción.
+                            </Card.Text>
+                            <Button variant="primary">Select</Button>
+                            <Button variant="danger">Deselect</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>Receta</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
+                            <Card.Text>
+                                Descripción.
+                            </Card.Text>
+                            <Button variant="primary">Select</Button>
+                            <Button variant="danger">Deselect</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>Receta</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Author</Card.Subtitle>
                             <Card.Text>
                                 Descripción.
                             </Card.Text>
