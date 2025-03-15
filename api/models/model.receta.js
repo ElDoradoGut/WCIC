@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-const ingredient = require("./model.ingrediente.js");
+import ingredient from "./model.ingrediente.js"
 
 const recetaSchema = new Schema({
 
@@ -29,3 +29,4 @@ const recetaSchema = new Schema({
 });
 
 const modelReceta = model('receta', recetaSchema);
+export default modelReceta

@@ -1,2 +1,6 @@
 app/node_modules
 api/node_modules
+api/tests
+api/jest.config.js
+api/.env
+api/.babelrc
