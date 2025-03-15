@@ -1,5 +1,5 @@
 import { Schema, model } from "mongoose";
-const IngredientSchema = new Schema({name: String})
+const ingredient = require("./model.ingrediente.js");
 
 const recetaSchema = new Schema({
 
@@ -20,8 +20,12 @@ const recetaSchema = new Schema({
         type: String,
         required: true
     },
-    ingredients : [IngredientSchema],
+    ingredients : [{
+        ingredient : {type: Schema.Types.ObjectId, ref: "ingredient"},
+        quantity: Number,
+        unit: String
+    }],
     steps: [String]
 });
 
-export const modelReceta = model('receta', recetaSchema);
+const modelReceta = model('receta', recetaSchema);
