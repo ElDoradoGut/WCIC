@@ -1,41 +1,32 @@
-export interface IUser {
+export interface IRecetaList {
     name: string;
-    mail: string;
-    curp: string;
-    password: string;
-    rol: string;
-}
-
-interface IMetric {
+    author: string[];
     description: string;
-    maxpoints: number;
 }
 
-export interface IEvent {
+export interface IRecipe {
     name: string;
-    maxrounds: number;
-    round:number;
-    state: string;
-    metrics: IMetric[];
+    author: string[];
+    minutes: number;
+    description: string;
+    serves: string;
+    ingredients: {
+        ingredient: IIngredient;
+        quantity: number;
+        unit: string;
+    }[];
+    steps: string[];
 }
-
-interface IGrade {
-    id_metric:string;
-    grade:number;
-    id_judge:string;
-}
-
-export interface IGrades{
-    id_group:string;
-    round:number;
-    id_event:string;
-    grades:IGrade[];
-}
-
-export interface ITeams {
+export interface IIngredient {
     name: string;
-    memberID: string[];
-    leaderID: string;
-    round: number;
-    grades: IGrades[]
+    description?: string;
+    category:
+    | 'Eggs, Milk and Milk products'
+    | 'Fats and Oils'
+    | 'Fruits'
+    | 'Vegetables'
+    | 'Grain, Nuts and baking products'
+    | 'Herbs and Spices'
+    | 'Meats, Sausages and Fish'
+    | 'Other';
 }

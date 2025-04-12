@@ -24,8 +24,8 @@ export const getIngredienteById = async (req, res) => {
 export const createIngrediente = async (req, res) => {
     try {
         const newIngrediente = new Ingrediente(req.body);
-        await newIngrediente.save();
-        res.status(201).json(newIngrediente);
+        const savedIngrediente = await newIngrediente.save();
+        res.status(201).json(savedIngrediente);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }

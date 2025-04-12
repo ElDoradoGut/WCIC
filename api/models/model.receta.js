@@ -12,18 +12,26 @@ const recetaSchema = new Schema({
         required: true,
         default: "Anonymous"
     }],
-    minutes: {
-        type: Number,
+    time: {
+        type: String,
         required: true
     },
     description: {
         type: String,
         required: true
     },
+    serves: {
+        type: String,
+        required: true
+    },
     ingredients : [{
         ingredient : {type: Schema.Types.ObjectId, ref: "ingredient"},
         quantity: Number,
-        unit: String
+        unit: String,
+        descriptor: {
+            type: String,
+            default: ""
+        }
     }],
     steps: [String]
 });

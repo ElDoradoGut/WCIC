@@ -35,9 +35,9 @@ export const getRecetaByName = async (req, res) => {
 
 export const getRecetasByIngredients = async (req, res) => {
     try {
-        const ingredientNames = req.body.ingredients; // arreglo de ingredientes.
+        const ingredientIds = req.body.ingredients.map(ingredient => ingredient._id);
         const recetas = await Receta.find({
-            "ingredients.ingredient": { $in: ingredientNames }
+            "ingredients.ingredient": { $in: ingredientIds }
         }).populate("ingredients.ingredient");
 
         if (!recetas.length) {
@@ -52,8 +52,9 @@ export const getRecetasByIngredients = async (req, res) => {
 export const createReceta = async (req, res) => {
     try {
         const newReceta = new Receta(req.body);
-        await newReceta.save();
-        res.status(201).json(newReceta);
+        const savedReceta = await newReceta.save();
+        const populatedReceta = await Receta.findById(savedReceta._id).populate("ingredients.ingredient");
+        res.status(201).json(populatedReceta);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
